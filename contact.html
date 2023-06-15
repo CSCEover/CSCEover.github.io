@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+    <title>Project Contact</title>
+    <!--
+	Wayne Kindle
+	CSCE 102
+	Section 001 
+	20030531/-->
+    <link rel="stylesheet" href="styles.css">
+</header>
+
+<body>
+    <div id="navigation">
+            <h1>Wayne Kindle</h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Quiz</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+    </div>
+    <div id = "map">
+        <h2>Directions:</h2>
+        <h3>Special Operations Museum</h3>
+        <p>100 Fort Bragg, BLVD
+        <br>
+        Fayetteville, NC, 28301</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.035914343561!2d-78.88718908475819!3d35.05584118034481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ab6cd4de760a55%3A0xe3f882ff5bd4ffbf!2sAirborne%20%26%20Special%20Operations%20Museum%20Foundation!5e0!3m2!1sen!2sus!4v1685552687879!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id = "form">
+        <h2>Contact Me</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="7f9d1bb2-0544-430c-bbd6-36fb0255c97b">
+            <h2>Name</h2>
+            <input type="text" name="name" required>
+            <h2>Email</h2>
+            <input type="email" name="email" required>
+            <h2>Message</h2>
+            <textarea name="message" required></textarea>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <br>
+            <button type="submit">Submit Form</button>
+        </form>
+        <footer>
+            <p>&copy;waynekindle</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project Quiz</title>
+    <!--
+	Wayne Kindle
+	CSCE 102
+	Section 001
+	20030525/-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <h1>Wayne Kindle</h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Quiz</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="columns">
+        <section class="column" id="quiz">
+            <h3>Website Development Quiz</h3>
+     <br>
+     <br>   
+    <p>
+        <label for="q1">What does JS stand for?:</label>
+        <select id="q1">
+        <br>
+            <option value="Select anaswer">Select a answer</option>
+            <option value="Java Script">Java Script</option>
+            <option value="Jive Squad">Jive Squad</option>
+            <option value="Jerry Springer">Jerry Springer</option>
+            <option value="Jersey Shore">Jersey Shore</option>
+        </select>
+    </p>
+        
+    <p>        
+        <label for="q2">Who is the father of the internet?:</label>
+        <select id="q2">
+        <br>
+            <option value="Select anaswer">Select a answer</option>
+            <option value="Walt Disney">Walt Disney</option>
+            <option value="Bill Gates">Bill Gates</option>
+            <option value="Sir Tim Berners-Lee">Sir Tim Berners-Lee</option>
+            <option value="Tom Cruise">Tom Cruise</option>
+        </select>
+    </p>
+        
+     <p>   
+        <label for="q3">Where do you insert Javascript?:</label>
+        <select id="q3">
+        <br>
+            <option value="Select anaswer">Select a answer</option>
+            <option value="Home">Home</option>
+            <option value="body section">body section</option>
+            <option value="head section">head section</option>
+            <option value="both body and head are correct">both body and head are correct</option>
+        </select>
+        
+    </p>
+    <p>   
+        <label for="q4">When does the tag &lt;a&gt; mean?:</label>
+        <select id="q4">
+        <br>
+            <option value="Select anaswer">Select a answer</option>
+            <option value="a">a</option>
+            <option value="hyperlink">hyperlink</option>
+            <option value="apple">apple</option>
+        </select>
+    </p>
+    <br>
+    <br>  
+    <p>
+            <button id="Grade" onclick="displayResults()">Sumbit</button>
+    </p> 
+    </section>
+    <section>
+        <div id="results" class="hidden column">
+              <h3>Quiz Results</h3>
+            <div id="results">show results>
+            <p id="a1"></p>
+            <p id="a2"></p>
+            <p id="a3"></p>
+            <p id="a4"></p>
+            <p id="s1"></p>
+        </div> 
+        </div>
+        </section>
+                   
+  
+  </div>
+            <footer>
+            <p>&copy;waynekindle</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
